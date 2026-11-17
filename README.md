@@ -24,12 +24,18 @@ your OpenIDEA settings. This is a data-only plugin: no WebAssembly or permission
 
 ## Install
 
-1. In OpenIDEA, open **Settings → Plugins → ⚙ → Install Plugin from Package File…**.
-2. Select `dist/myrrr.atom-one-themes-1.0.0.oiplugin` or
-   `dist/myrrr.atom-one-themes-1.0.0.zip`.
-   Alternatively use **Install Plugin from Disk…** and select this repository's folder.
-3. Apply **Atom One Light** or **Atom One Dark** in the plugin details, or select
-   it under **Settings → Appearance → Theme**.
+Once Atom One Themes is listed in OpenIDEA's plugin market, open
+**Settings → Plugins**, find **Atom One Themes** in the market, and choose
+**Install**.
+
+To install from a local package, open
+**Settings → Plugins → ⚙ → Install Plugin from Package File…**.
+Select `dist/myrrr.atom-one-themes-1.0.0.oiplugin` or
+`dist/myrrr.atom-one-themes-1.0.0.zip`.
+Alternatively use **Install Plugin from Disk…** and select this repository's folder.
+
+Apply **Atom One Light** or **Atom One Dark** in the plugin details, or select it
+under **Settings → Appearance → Theme**.
 
 If **Sync with OS** is enabled, assign Atom One Light and Atom One Dark to the
 preferred light and dark themes. Existing custom accents and editor color
