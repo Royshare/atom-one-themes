@@ -1,0 +1,15 @@
+{
+  "name": "myrrr.atom-one-themes",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Atom One inspired light and dark themes for OpenIDEA",
+  "license": "MIT",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "generate": "node scripts/generate.mjs",
+    "test": "node --test",
+    "check": "node scripts/generate.mjs --check",
+    "package:zip": "pwsh -NoProfile -File scripts/package.ps1"
+  }
+}

@@ -1,0 +1,18 @@
+id = "myrrr.atom-one-themes"
+name = "Atom One Themes"
+version = "1.0.0"
+description = "Atom One Light and One Dark inspired themes for OpenIDEA, with coordinated UI, syntax, diffs, and terminal palettes. Inspired by the Atom team."
+authors = ["MyRRR"]
+license = "MIT"
+categories = ["themes"]
+icon = "icon.svg"
+engines.openidea = "^1.2"
+change-notes = "1.0.0 — Atom One Light and Atom One Dark, including editor schemes and terminal colors."
+
+[[contributes.themes]]
+path = "themes/atom-one-light.theme.json"
+editor-scheme = "themes/atom-one-light.scheme.json"
+
+[[contributes.themes]]
+path = "themes/atom-one-dark.theme.json"
+editor-scheme = "themes/atom-one-dark.scheme.json"
